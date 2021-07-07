@@ -1,0 +1,29 @@
+= P2P TicTacToe
+
+[abstract]
+A "simple" project using libp2p, WASM and rust to make a dweb apps to play TicTacToe with your friends using a peer-to-peer network (and referees to avoid cheating).
+
+NOTE: Subject to a _very likely_ name change
+
+== What are we going to need?
+
+- a P2P framework like libp2p (the rust one)
+- a way to connect our clients in a browser, surely Websocket and/or WebRTC-star through a WASM layer (will be fun)
+- a bootstrap server for discovery and relay purposes
+
+=== Protocols needed
+
+- [ ] /ipfs/id/1.0.0
+- [ ] /p2p/id/delta/1.0.0 ?
+- [ ] /meshsub/1.1.0
+- [ ] /libp2p/circuit/relay/0.1.0
+- [ ] /libp2p/fetch/0.0.1
+- [ ] /fusetim/tictactoe/x.y.z
+ 
+== License
+
+MIT License
+
+Copyright (c) 2021 FuseTim <fusetim@gmx.com>
+
+See link:./license.txt[]
