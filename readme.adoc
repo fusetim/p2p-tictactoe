@@ -13,12 +13,14 @@ NOTE: Subject to a _very likely_ name change
 
 === Protocols needed
 
-- [ ] /ipfs/id/1.0.0
-- [ ] /p2p/id/delta/1.0.0 ?
-- [ ] /meshsub/1.1.0
-- [ ] /libp2p/circuit/relay/0.1.0
-- [ ] /libp2p/fetch/0.0.1
+- [x] /ipfs/id/1.0.0
+- [x] /ipfs/ping/1.0.0
+- [x] /meshsub/1.0.0
+- [x] /meshsub/1.1.0
+- [x] /libp2p/circuit/relay/0.1.0
 - [ ] /fusetim/tictactoe/x.y.z
+- [ ] /libp2p/circuit/relay/0.2.0 (future)
+- [ ] /rendezvous/1.0.0 (future)
  
 == License
 

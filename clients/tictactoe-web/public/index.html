@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+  </head>
+  <body>
+
+    <h1>P2P-TicTacToe</h1>
+
+    <script type="module">
+      import init, { start, stop, bootstrap } from './assets/pkg/tictactoe_web.js';
+
+      export { stop, bootstrap };
+
+      async function run() {
+        // init WASM module
+        console.log("Initing WASM module...");
+        await init();
+
+        setTimeout(() => {
+            console.log("Stop!")
+            new Promise(stop);
+        }, 600000);
+
+        setTimeout(() => {
+            console.log("Boostrap!")
+            new Promise(bootstrap);
+        }, 5000);
+
+        // Start TicTacToe node
+        console.log("Start!");
+        await start(); 
+      }
+
+      run();
+    </script>
+  </body>
+</html>

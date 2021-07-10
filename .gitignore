@@ -1,1 +1,3 @@
 /target
+/.metals
+/clients/tictactoe-web/public/assets/pkg
